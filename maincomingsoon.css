@@ -1,0 +1,537 @@
+
+/* Galga-Typeface */
+@font-face {
+    font-family: 'Galga';
+    src: url('fonts/Galga/Galga-light.woff2') format('woff2');
+    font-weight: 250;
+}
+
+@font-face {
+    font-family: 'Galga';
+    src: url('fonts/Galga/Galga-Regular.woff2') format('woff2');
+    font-weight: 400;
+}
+
+@font-face {
+    font-family: 'Galga';
+    src: url('fonts/Galga/Galga-Bold.woff2') format('woff2');
+    font-weight: 600;
+}
+
+@font-face {
+    font-family: 'Galga';
+    src: url('fonts/Galga/Galga-ExtraBold.woff2') format('woff2');
+    font-weight: 800;
+}
+
+
+* {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+    font-size: 15px;
+    color: black;
+}
+
+h1 {
+    font-size: 3em;
+    font-family: 'Galga';
+    font-weight: 600;
+}
+
+@media only screen and (max-width:720px) {
+    h1 {
+        font-size: 1.9em;
+        font-family: 'Galga';
+        font-weight: 600;
+    }
+}
+
+
+/* body {
+    background-color: #F3CE23;
+} */
+
+.container {
+    width: 80%;
+    margin: auto;
+}
+
+@media only screen and (max-width:720px) {
+    .container {
+        width: 85%;
+    }
+}
+
+.container-2 {
+    width: 80%;
+}
+
+@media only screen and (max-width:720px) {
+    .container-2 {
+        width: 95%;
+    }
+}
+
+.navbar {
+    top: 0;
+    /* background-color: #F7596B; */
+    width: 100%;
+    height: 120px;
+    display: block;
+    padding: 0px;
+}
+
+#header-container {
+    position: absolute;
+    width: 80%;
+    margin: 30px 0;
+}
+@media only screen and (max-width:720px) {
+    #header-container {
+        width: 85%;
+        margin: 30px 0;
+    }
+}
+.logo {
+    position: absolute;
+    font-size: 2em;
+    line-height: 1em;
+    font-family: 'Galga', 'sans-serif';
+    font-weight: 800;
+    color: black;
+}
+@media only screen and (max-width:720px) {
+    .logo {
+        font-size: 1.5em;
+    }
+}
+#header-container ul {
+    list-style: none;
+    float: right;
+}
+
+#header-container li {
+    float: right;
+    padding: 20px 25px 0 25px;
+}
+@media only screen and (max-width:720px) {
+    #header-container li {
+        padding: 20px 7px 0 7px;
+    }
+}
+
+#header-container li a {
+    font-size: 1.7em;
+    letter-spacing: 0.5px;
+    vertical-align: middle;
+    font-family: 'Galga', 'sans-serif';
+    font-weight: 400;
+    color: black;
+    -webkit-transition: color 0.2s ease-out;
+    -moz-transition: color 0.2s ease-out;
+    -o-transition: color 0.2s ease-out;
+    transition: color 0.2s ease-out;
+}
+
+@media only screen and (max-width:720px) {
+    #header-container li a {
+        font-size: 1.2em;
+    }
+}
+
+#header-container li a:hover {
+    color: #FF2F54;;
+}
+
+/* Profile Image */
+
+.profile-image {
+    width: 100%;
+    height: 80%;
+    object-fit: contain;
+    margin-bottom: 15px;
+}
+
+/* Profile */
+
+.profile-container {
+    border-bottom: 1px solid black;
+}
+
+.profile-header {
+    margin: 45px 0 0 75px;
+}
+@media only screen and (max-width:720px) {
+    .profile-header {
+        font-size: 1.9em;
+        margin: 15px 0 0 45px;
+    }
+}
+
+.profile-description {
+    font-family: 'Galga', 'sans-serif';
+    font-size: 1.5em;
+    line-height: 1.5em;
+    margin: 45px 0 45px 85px;
+}
+
+@media only screen and (max-width:720px) {
+    .profile-description {
+        font-size: 1em;
+        margin: 15px 0 45px 45px;
+    }
+}
+
+.profile-description a {
+    font-family: 'Galga', 'sans-serif';
+    font-size: 1em;
+    line-height: 1em;
+    margin-top: 45px;
+    border-bottom: 1px grey dotted;
+}
+
+/* Font container new */
+.new {
+    background-color: #DD3647;
+    width: 330px;
+    height: 90px;
+    border-bottom-right-radius: 10px;
+    margin: 0 0 0 0;
+    text-align: center;
+    padding: 15px 0 0 0;
+
+}
+
+.new p {
+    color: white;
+    font-family: 'Galga','sans-serif';
+    font-size: 5em;
+    line-height: 1.1em;
+    font-weight: 800;
+}
+
+.font-container-new {
+    overflow: hidden;
+    height: 820px;
+    width: 100%;
+    position: relative;
+    border-bottom: 1px solid black;
+}
+@media only screen and (max-width: 990px) {
+    .font-container-new {
+        height: 760px;
+    }
+}
+
+@media only screen and (max-width:720px) {
+    .font-container-new {
+        height: 700px;
+    }
+}
+
+/* .font-container-new:hover {
+    background-color: beige;
+} */
+
+#dot {
+    background-color: #6B3D8E;
+    position: absolute;
+    height: 130px;
+    width: 130px;
+    border-radius: 50%;
+    margin: 50px 0 0 90px;
+    z-index: -2;
+}
+
+#dot2 {
+    background-color: #EAE56F;
+    position: absolute;
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+    margin: 50px 0 0 -450px;
+    z-index: -1;
+}
+
+#dot3 {
+    background-color: #5C93F8;
+    position: absolute;
+    height: 400px;
+    width: 400px;
+    border-radius: 50%;
+    margin: -350px 0 0 100px;
+    z-index: -1;
+}
+
+.preview-font-new {
+    position: absolute;
+    padding: 0 25px 0 0;
+    margin: 150px 0 45px 95px;
+    font-family: 'Galga', 'sans-serif';
+    font-weight: 400;
+}
+@media only screen and (max-width:990px) {
+    .preview-font-new {
+        margin: 50px 0 0 75px;
+    }
+}
+
+@media only screen and (max-width:720px) {
+    .preview-font-new {
+        margin: 50px 0 0 75px;
+    }
+}
+
+.preview-font-new a {
+    font-size: 7em;
+    overflow: visible;
+    line-height: 1.2em;
+    /* Transition */
+    -webkit-transition: color 0.8s ease-out;
+    -moz-transition: color 0.8s ease-out;
+    -o-transition: color 0.8s ease-out;
+    transition: color 0.8s ease-out;
+}
+@media only screen and (max-width:990px) {
+    .preview-font-new a {
+        font-size: 5.5em;
+        white-space: normal;
+        overflow: visible;
+    }
+}
+
+@media only screen and (max-width:720px) {
+    .preview-font-new a {
+        font-size: 4em;
+        white-space: normal;
+        overflow: visible;
+    }
+}
+
+strong {
+    font-size: 1em;
+}
+
+.preview-font-new a:hover {
+    color: #F7596B;
+}
+
+.info-container-new {
+    position: absolute;
+    right: 9%;
+    bottom: 0;
+    margin: 0 0 55px 80px;
+    font-family: 'Galga', 'sans-serif';
+    font-weight: 800;
+}
+
+.info-container-new a {
+    float: right;
+    color: black;
+    font-size: 1.9em;
+    margin: 0 25px 0 0;
+    -webkit-transition: color 0.5s ease-out;
+    -moz-transition: color 0.5s ease-out;
+    -o-transition: color 0.5s ease-out;
+    transition: color 0.5s ease-out;
+}
+
+.info-container-new a:hover {
+    color: #FF2F54;
+}
+
+.info-container-new p {
+    font-size: 1.9em;
+    margin-top: 10px;
+    padding-left: 5px;
+}
+
+@media only screen and (max-width:720px) {
+    .info-container-new p {
+        font-size: 1.4em;
+    }
+}
+
+/* Font Container */
+.font-container {
+    overflow: hidden;
+    height: 300px;
+    width: 100%;
+    position: relative;
+    border-bottom: 1px solid black;
+    /* Transition */
+    -webkit-transition: background-color 0.8s ease-out;
+    -moz-transition: background-color 0.8s ease-out;
+    -o-transition: background-color 0.8s ease-out;
+    transition: background-color 0.8s ease-out;
+}
+
+.font-container:hover {
+    background-color: beige;
+}
+
+.preview-font {
+    position: absolute;
+    margin: 65px 0 0 45px;
+}
+
+.preview-font a {
+    font-size: 7em;
+    white-space: nowrap;
+    overflow: hidden;
+}
+
+.preview-font-Naratif {
+    position: absolute;
+    margin: 65px 0 0 45px;
+    font-family: 'NaratifCondensed','sans-serif';
+    font-weight: 400;
+}
+
+.preview-font-Naratif a {
+    font-size: 7em;
+    white-space: nowrap;
+    overflow: hidden;
+}
+
+.preview-font-Rolade {
+    position: absolute;
+    margin: 65px 0 0 45px;
+    font-family: 'Rolade','sans-serif';
+    font-weight: 400;
+}
+
+.preview-font-Rolade a {
+    font-size: 7em;
+    white-space: nowrap;
+    overflow: hidden;
+}
+
+.preview-font-Egalite {
+    position: absolute;
+    margin: 65px 0 0 45px;
+    font-family: 'Egalite','sans-serif';
+    font-weight: 400;
+}
+
+.preview-font-Egalite a {
+    font-size: 7em;
+    white-space: nowrap;
+    overflow: hidden;
+}
+
+.info-container {
+    position: absolute;
+    bottom: 0;
+    margin: 0 0 35px 55px;
+    font-family: 'Galga', 'sans-serif';
+    font-weight: 400;
+}
+
+.info-container a {
+    color: black;
+    font-size: 1.4em;
+    margin: 0 25px 0 0;
+    -webkit-transition: color 0.5s ease-out;
+    -moz-transition: color 0.5s ease-out;
+    -o-transition: color 0.5s ease-out;
+    transition: color 0.5s ease-out;
+}
+
+.info-container a:hover {
+    color: #FF2F54;
+}
+
+.nama-font {
+    font-family: 'Galga', 'sans-serif';
+    font-weight: 600;
+}
+
+/* Input */
+
+
+/* Footer */
+
+.footer {
+    height: 100px;
+    padding: 25px 0 0 0;
+}
+
+.footer p {
+    font-family: 'Galga', 'sans-serif';
+    font-weight: 400;
+    font-size: 1.5em;
+}
+
+@media only screen and (max-width:720px) {
+    .footer p{
+        font-size: 1.2em;
+        letter-spacing: 0px;
+        line-height: 1.2em;
+    }
+}
+
+.footer p:nth-child(2) {
+    font-family: 'Galga', 'sans-serif';
+    font-weight: 250;
+    line-height: 1.5em;
+}
+
+@media only screen and (max-width:720px) {
+    .footer p:nth-child(2) {
+        font-size: 1.2em;
+        letter-spacing: 0px;
+        line-height: 1em;
+    }
+}
+
+.footer a {
+    font-family: 'Galga', 'sans-serif';
+    font-weight: 400;
+    font-size: 1.5em;
+}
+.footer-1 {
+    float: left;
+    width: 30%;
+}
+
+.footer-2 {
+    width: 50%;
+    float: right;
+}
+.footer-2 ul {
+    list-style: none;
+    float: right;
+}
+
+.footer-2 li {
+    float: right;
+    padding: 0 10px 0 10px;
+}
+
+.footer-2 li a {
+    font-size: 1.7em;
+    letter-spacing: 0.5px;
+    line-height: 1.5em;
+    vertical-align: middle;
+    font-family: 'Galga', 'sans-serif';
+    font-weight: 400;
+    -webkit-transition: color 0.2s ease-out;
+    -moz-transition: color 0.2s ease-out;
+    -o-transition: color 0.2s ease-out;
+    transition: color 0.2s ease-out;
+}
+
+@media only screen and (max-width:720px) {
+    .footer-2 li a{
+        font-size: 1.4em;
+        letter-spacing: 0px;
+        line-height: 1.2em;
+    }
+}
+
+.footer-2 li a:hover {
+    color: #FF2F54;
+}
